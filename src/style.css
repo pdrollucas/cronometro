@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin-top: 2rem;
+}
+
+.container__img{
+    height: 50vh;
+}
+
+.container__timer{
+    margin-top: -30vh;
+    font-size: 5rem;
+}
+
+.botoes{
+    margin-top: 20vh;
+    display: flex;
+}
+
+.botao{
+    background-color: aliceblue;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    margin: 0 10px 0 10px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.botao:hover{
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.botao:active{
+    background-color: black;
+    color: gray;
+}
